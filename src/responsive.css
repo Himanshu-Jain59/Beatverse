@@ -1,0 +1,240 @@
+/* Mobile Styles */
+@media (min-width: 320px) and (max-width: 425px) {
+  .navbar {
+    width: 90%;
+    left: 5%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .title {
+    margin: 1rem 0;
+    height: auto;
+    font-size: large;
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .title input {
+    width: 70%;
+  }
+  .container {
+    margin: 1.5rem 0.5rem; /* Reduce margins for smaller screens */
+    padding: 0 1rem; /* Add some padding for better spacing */
+  }
+
+  .tours {
+    text-align: center;
+    flex-direction: column; /* Stack tours vertically */
+    justify-content: center;
+    align-items: center; /* Stretch buttons to full width */
+    gap: 0.3rem; /* Reduce gap between items */
+  }
+
+  .container hr {
+    width: 100%;
+    margin: 0.5rem 0; /* Add some margin for spacing */
+  }
+
+  .tours button {
+    width: 70%; /* Full width button on mobile */
+    padding: 0.8rem; /* Adjust padding for comfort */
+    font-size: 0.8rem; /* Increase font size for better readability */
+  }
+
+  pre {
+    font-size: 0.9rem; /* Adjust font size for preformatted text */
+    white-space: pre-wrap;
+    margin: 0; /* Remove default margin */
+  }
+
+  .cards {
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .cart button {
+    width: 80%;
+  }
+
+  .orders {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .col input {
+    width: 4rem;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .about p {
+    padding: 1.5rem;
+    text-align: start;
+  }
+
+  footer {
+    padding: 1rem 0;
+    flex-direction: column;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  footer {
+    padding: 1rem 0;
+    flex-direction: column;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .icons {
+    width: 70%;
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .navbar {
+    width: 90%;
+    left: 5%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .title {
+    margin: 1rem 0;
+    height: auto;
+    font-size: large;
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .title input {
+    width: 70%;
+  }
+
+  .container {
+    margin: 2rem 1rem; /* Reduce margin on smaller screens */
+  }
+
+  .tours {
+    flex-direction: column; /* Stack tours vertically on mobile */
+    align-items: stretch; /* Stretch buttons to full width */
+    gap: 0.5rem; /* Reduce gap between items */
+  }
+
+  .container hr {
+    width: 100%; /* Full width for horizontal rule */
+  }
+
+  .tours button {
+    width: 100%; /* Full width button on mobile */
+    padding: 0.8rem; /* Adjust padding for smaller screens */
+  }
+
+  .cards {
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .cart button {
+    width: 80%;
+  }
+
+  .orders {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .col input {
+    width: 4rem;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .about p {
+    padding: 1.5rem;
+    text-align: start;
+  }
+
+  footer {
+    padding: 1rem 0;
+    flex-direction: column;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .icons {
+    width: 50%;
+    font-size: x-large;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    width: 80%;
+    left: 10%;
+  }
+
+  .title {
+    font-size: xx-large;
+  }
+
+  .cards {
+    width: 80%;
+    gap: 4rem;
+  }
+
+  .cart button {
+    width: 70%;
+  }
+
+  .orders {
+    width: 80%;
+  }
+
+  .about {
+    gap: 2rem;
+  }
+
+  footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .icons {
+    font-size: x-large;
+  }
+}
